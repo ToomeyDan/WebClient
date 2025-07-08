@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.webclient.EmployeeServiceUnitTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-07-08T21:09:53.292Z" hostname="MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="initializationError" classname="com.example.webclient.EmployeeServiceUnitTest" time="0.001">
+    <failure message="org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [com.example.webclient.EmployeeService employeeService] in constructor [public com.example.webclient.EmployeeServiceUnitTest(com.example.webclient.EmployeeService)]." type="org.junit.jupiter.api.extension.ParameterResolutionException">org.junit.jupiter.api.extension.ParameterResolutionException: No ParameterResolver registered for parameter [com.example.webclient.EmployeeService employeeService] in constructor [public com.example.webclient.EmployeeServiceUnitTest(com.example.webclient.EmployeeService)].
+	at java.base@17.0.10/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base@17.0.10/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
